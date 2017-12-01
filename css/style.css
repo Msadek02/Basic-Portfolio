@@ -1,8 +1,12 @@
-h1 {
+.header  {
 	background-color: #4aaaa5;
+	border-style: solid;
+	width: 15%;
+	border: center;
+	color: white;
 }
 ul#menu li {
 	display: inline;
 	float: right;
-	list-style-position: inside;
+	margin: auto;
 }
