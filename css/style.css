@@ -1,6 +1,8 @@
-html {
-	background-color: red;
+h1 {
+	background-color: #4aaaa5;
 }
-li {
+ul#menu li {
 	display: inline;
+	float: right;
+	list-style-position: inside;
 }
