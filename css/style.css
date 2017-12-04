@@ -1,12 +1,19 @@
-.header  {
-	background-color: #4aaaa5;
-	border-style: solid;
-	width: 15%;
-	border: center;
+#name{
+	background: #5ba;
 	color: white;
+	width: 15%;
+	height: 30px;
+	text-align: center;
+	margin: 0px;
+	position: relative;
 }
-ul#menu li {
-	display: inline;
+ul#nav-bar{
+	color: gray;
 	float: right;
-	margin: auto;
+}
+li{
+	display: inline;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
