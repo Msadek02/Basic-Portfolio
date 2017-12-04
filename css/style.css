@@ -1,11 +1,19 @@
+html{
+	background: url('../images/gaming-pattern.png');
+}
+
 #name{
 	background: #5ba;
 	color: white;
-	width: 15%;
-	height: 30px;
-	text-align: center;
-	margin: 0px;
+	width: 247px;
+	height: 89px;
+	left: 162px;
+	top: 1px;
+	right: 409;
+	bottom: 90px;
 	position: relative;
+	line-height: 4;
+	text-align: center;
 }
 ul#nav-bar{
 	color: gray;
