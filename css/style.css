@@ -1,33 +1,35 @@
 html{
-	background: url('../images/gaming-pattern.png');
+	background: url('../images/stonehaven.png');
 	width: 960px;
 	padding-left: 200px;
+}
+.home {
+	width: 1000px;
 }
 
 h1{
 	background: #5ba;
 	color: white;
 	display: inline-block;
-	height: 89px;
-	left: 162px;
-	top: 1px;
-	right: 409;
-	bottom: 90px;
 	position: relative;
-	line-height: 4;
 	text-align: center;
+	width: 246px;
+	height: 88px;
 }
-.nav-bar{
+.nav{
 	color: gray;
 	float: right;
 	word-spacing: 30px;
-	overflow: none;
 }
 li{
-	display: inline;
+	display: inline-block;
 	text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+ul {
+	padding: 10px;
+	display: grid;
 }
 p{
 	text-indent: 20px;
@@ -35,8 +37,31 @@ p{
 }
 .main{
 	background: white;
+	width: 650px;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: inline-block;
+	overflow: none;
 }
 .headerlink{
 	float: right;
 	overflow: none;
+}
+.bottom{
+	background: white;
+	display: inline-block;
+	overflow: none;
+	float: right;
+	width: 270px;
+}
+img{
+	float: left;
+	margin: 20px;
+	padding-left: 10px;
+}
+.main h2 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
 }
