@@ -7,7 +7,7 @@ html{
 h1{
 	background: #5ba;
 	color: white;
-	width: 247px;
+	display: inline-block;
 	height: 89px;
 	left: 162px;
 	top: 1px;
