@@ -47,6 +47,9 @@ p{
 	float: right;
 	overflow: none;
 }
+li a {
+	font-size: 40px;
+}
 .bottom{
 	background: white;
 	display: inline-block;
