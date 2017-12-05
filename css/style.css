@@ -9,17 +9,26 @@ html{
 
 h1{
 	background: #5ba;
-	color: white;
-	display: inline-block;
-	position: relative;
-	text-align: center;
-	width: 246px;
-	height: 88px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 260px;
+    height: 60px;
+    overflow: hidden;
+}
+.footer {
+	padding: 10px;
+    float: left;
+    height: 20px;
+    margin-top: 100px;
+    background-color: white;
 }
 .nav{
 	color: gray;
 	float: right;
 	word-spacing: 30px;
+	padding: 60px;
 }
 li{
 	display: inline-block;
@@ -28,8 +37,9 @@ li{
     text-decoration: none;
 }
 ul {
-	padding: 10px;
+	padding: 30px;
 	display: grid;
+	display: inline-block;
 }
 p{
 	text-indent: 20px;
@@ -50,6 +60,10 @@ p{
 li a {
 	font-size: 40px;
 }
+header {
+	background-color: white;
+	margin: inherit;
+}
 .bottom{
 	background: white;
 	display: inline-block;
@@ -63,7 +77,7 @@ img{
 	padding-left: 10px;
 }
 .main h2 {
-	text-align: center;
+	margin: 20px;
 }
 h3 {
 	text-align: center;
