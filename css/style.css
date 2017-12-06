@@ -85,6 +85,7 @@ float: right;
 width: 270px;
 }
 img{
+width: 200px;	
 float: left;
 margin: 20px;
 padding-left: 10px;
@@ -100,3 +101,6 @@ font-size: 35px;
 h3 {
 text-align: center;
 }
+div.sorah {
+content:url(http://placehold.it/350x150);
+}​
