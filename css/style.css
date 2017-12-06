@@ -1,20 +1,25 @@
 html{
 background: url('../images/stonehaven.png');
-width: 960px;
-padding-left: 150px;
+}
+hr{
+height: 10px;
+border: 0;
+box-shadow: 0 10px 10px -10px #8c8b8b inset;	
 }
 .home {
 width: 1000px;
 }
 h1{
+margin: 15px;
 background: #5ba;
 color: white;
 display: inline-block;
 position: relative;
 text-align: center;
 width: 260px;
-height: 60px;
+height: 40px;
 overflow: hidden;
+margin-top: 20px;
 }
 .footer {
 position: absolute;
@@ -23,6 +28,8 @@ width: 100%;
 height: 60px;
 line-height: 60px;
 background-color: white;
+overflow: none;
+text-align: -webkit-center;
 }
 .container {
 width: content;
@@ -51,6 +58,7 @@ p{
 text-indent: 20px;
 }
 .main{
+height: 478px;	
 background: white;
 width: 650px;
 padding-right: 20px;
@@ -80,6 +88,9 @@ img{
 float: left;
 margin: 20px;
 padding-left: 10px;
+}
+.bottom h3 {
+color: #5ba;
 }
 .main h2 {
 margin: 20px;
