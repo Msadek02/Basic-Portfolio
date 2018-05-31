@@ -4,8 +4,7 @@
   "description": "my profile",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Msadek02/Basic-Portfolio/issues"
   },
-  "homepage": "https://github.com/Msadek02/Basic-Portfolio#readme"
+  "homepage": "https://github.com/Msadek02/Basic-Portfolio#readme",
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  }
 }
